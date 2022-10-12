@@ -1,0 +1,108 @@
+#test{
+    font-size: 30px;
+    color: blue;
+}
+
+.dh {
+    background-color: red;
+    color: aliceblue;
+    font-size: 30px;
+}
+.form{
+    border: 12px solid blue;
+}
+.d1{
+    width: 20%;
+}
+#d2{
+    font-size: 50px;
+}
+.d3{
+    font-size: 50px;
+}
+#d4{
+    font-size: 50px;
+}
+.p{
+    margin-left: 30px;
+}
+.k1{
+    font-size: 30px;
+}
+.td{
+    width: 3%;
+    height: auto;
+}
+.td1{
+    width: 15%;
+    height: 15%;
+}
+.design{
+    background-color: rgb(199, 142, 57);    
+    color: rgb(0, 0, 0);
+    border: 2px rgb(6, 19, 24) solid;
+    text-align: center;
+    font-size: 30px;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+
+}
+td{
+ border-radius: 10px;
+}
+.img {
+height: 300px;
+width: 50%;
+background: url(https://us.123rf.com/450wm/vencavolrab78/vencavolrab781512/vencavolrab78151200034/50494533-poppy-field-with-trees-in-the-shape-of-heart-at-sunset-valentines-day-.jpg?ver=6);
+background-size: 100% 100%;
+}
+.color{
+height: 300px;
+width: 300px;
+
+/* background: linear-gradient(red,blue,white,green,purple,magenta); */
+/* background: linear-gradient(to left,red,blue,white,green,purple,magenta); */
+/* background: linear-gradient(45deg,red 56%,blue,white,green,purple,magenta); */
+background: radial-gradient(red 34%,blue,white,green,purple,magenta);
+}
+.imgcolor {
+height: 250px;
+width: 50%;
+
+background: linear-gradient(rgba(100,0,0,0.45),green),url(https://us.123rf.com/450wm/vencavolrab78/vencavolrab781512/vencavolrab78151200034/50494533-poppy-field-with-trees-in-the-shape-of-heart-at-sunset-valentines-day-.jpg?ver=6);
+background-size: 100% 100%;
+}
+.task1{
+height: 300px;
+width: 300px;
+background: black;
+margin: 50px 0 50px 45px;
+}
+.task2{
+height: 300px;
+width: 300px;
+background-color: aqua;
+font-size: 50px;
+text-align: center;
+}
+    
+
+td:first-child
+{     
+    text-align: center;
+       
+    font-weight: bold;
+    font-size: 1.2em;    
+}
+input
+{
+    border: none;
+    
+
+}
+input:hover
+{
+background: rgb(219, 246, 251);
+
+}
