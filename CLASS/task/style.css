@@ -1,108 +1,121 @@
-#test{
-    font-size: 30px;
-    color: blue;
+/* task1 transparent sing in form cord */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.body1{
+    height: 745px;
+    width: 100%;
+    background: url(pictures/5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    box-sizing: border-box;
 
-.dh {
-    background-color: red;
-    color: aliceblue;
-    font-size: 30px;
 }
-.form{
-    border: 12px solid blue;
-}
-.d1{
-    width: 20%;
-}
-#d2{
+.h{
+    text-align: center;
     font-size: 50px;
+    color: white;
+    
 }
-.d3{
-    font-size: 50px;
+.task{
+    height: 430px;
+    width: 400px;
+    margin:155px 0 100px 550px;
+    text-align: center;
+    transform:(-50% -50%);
+    background: linear-gradient(rgba(110, 110, 110, 0.3),rgba(110, 110, 110, 0.3));
+    color: white;
+    box-sizing: border-box;   
 }
-#d4{
-    font-size: 50px;
+.font{
+    font-size: 40px;
+    padding-top: 20px;
 }
 .p{
-    margin-left: 30px;
+    padding-top: 15px;
 }
-.k1{
-    font-size: 30px;
+.social{
+    margin-top: 20px; 
+ } 
+.Facebook{
+    margin-right: 25px;
+     height: 28px;
+     width: 130px;
+     color: #fff;
+     border-color: #fff;
+     background: transparent;
+ }
+ .Google{
+     margin-left: 25px;
+     width: 130px;
+     height: 28px;
+     color: #fff;
+     border-color: #fff;
+     background: transparent;
+ }
+.Input_box{
+    padding: 15px 42px;
 }
-.td{
-    width: 3%;
-    height: auto;
-}
-.td1{
-    width: 15%;
-    height: 15%;
-}
-.design{
-    background-color: rgb(199, 142, 57);    
-    color: rgb(0, 0, 0);
-    border: 2px rgb(6, 19, 24) solid;
-    text-align: center;
-    font-size: 30px;
-    height: 400px;
+.form-text input{
+    height: 28px;
     width: 100%;
-    padding: 10px;
-
-}
-td{
- border-radius: 10px;
-}
-.img {
-height: 300px;
-width: 50%;
-background: url(https://us.123rf.com/450wm/vencavolrab78/vencavolrab781512/vencavolrab78151200034/50494533-poppy-field-with-trees-in-the-shape-of-heart-at-sunset-valentines-day-.jpg?ver=6);
-background-size: 100% 100%;
-}
-.color{
-height: 300px;
-width: 300px;
-
-/* background: linear-gradient(red,blue,white,green,purple,magenta); */
-/* background: linear-gradient(to left,red,blue,white,green,purple,magenta); */
-/* background: linear-gradient(45deg,red 56%,blue,white,green,purple,magenta); */
-background: radial-gradient(red 34%,blue,white,green,purple,magenta);
-}
-.imgcolor {
-height: 250px;
-width: 50%;
-
-background: linear-gradient(rgba(100,0,0,0.45),green),url(https://us.123rf.com/450wm/vencavolrab78/vencavolrab781512/vencavolrab78151200034/50494533-poppy-field-with-trees-in-the-shape-of-heart-at-sunset-valentines-day-.jpg?ver=6);
-background-size: 100% 100%;
-}
-.task1{
-height: 300px;
-width: 300px;
-background: black;
-margin: 50px 0 50px 45px;
-}
-.task2{
-height: 300px;
-width: 300px;
-background-color: aqua;
-font-size: 50px;
-text-align: center;
-}
-    
-
-td:first-child
-{     
-    text-align: center;
-       
-    font-weight: bold;
-    font-size: 1.2em;    
-}
-input
-{
+    background: transparent;
     border: none;
+    color: white;
+    margin-bottom: 28px;
+    background-color: rgba(255, 255, 255, 0.137);
+    padding-left: 15px;
     
+}
+.check_Box{
+    text-align: left;
+}
+.Remember{
+    margin-left: 8px;
+    font-size: 17px;
+    margin-right: 79px;
+}
+.submit{
+    margin-top: 30px; 
+   
+}
+.form-submit input{
+    height: 28px;
+    width: 50%;
+    background: transparent;
+    border: none;
+    color: white;
+    margin-bottom: 28px;
+    background-color: rgba(223, 31, 31, 0.767);
+    border-radius: 15px; 
+    font-size: 17px;
+} 
+
+
+ 
+
+
+ /* task2 student records code  */
+
+ .records{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.bold{
+    font-weight: bold;
 
 }
-input:hover
-{
-background: rgb(219, 246, 251);
-
+.showdo{
+    box-shadow:3px 3px 3px #000;
+    margin: auto;
+    
+}
+.pngimg{
+    height: 80px;
+    width: 80px;
 }
