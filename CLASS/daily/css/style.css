@@ -1,0 +1,424 @@
+#test {
+    font-size: 30px;
+    color: blue;
+}
+
+.dh {
+    background-color: red;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.d1 {
+    width: 20%;
+}
+
+#d2 {
+    font-size: 50px;
+}
+
+.d3 {
+    font-size: 50px;
+}
+
+#d4 {
+    font-size: 50px;
+}
+
+.p {
+    margin-left: 30px;
+}
+
+.k1 {
+    font-size: 30px;
+}
+
+.td {
+    width: 3%;
+    height: auto;
+}
+
+.td1 {
+    width: 15%;
+    height: 15%;
+}
+
+.img {
+    height: 300px;
+    width: 50%;
+    background: url(https://us.123rf.com/450wm/vencavolrab78/vencavolrab781512/vencavolrab78151200034/50494533-poppy-field-with-trees-in-the-shape-of-heart-at-sunset-valentines-day-.jpg?ver=6);
+    background-size: 100% 100%;
+}
+
+.color {
+    height: 300px;
+    width: 300px;
+
+    /* background: linear-gradient(red,blue,white,green,purple,magenta); */
+    /* background: linear-gradient(to left,red,blue,white,green,purple,magenta); */
+    /* background: linear-gradient(45deg,red 56%,blue,white,green,purple,magenta); */
+    background: radial-gradient(red 34%, blue, white, green, purple, magenta);
+}
+
+.imgcolor {
+    height: 250px;
+    width: 50%;
+
+    background: linear-gradient(rgba(100, 0, 0, 0.45), green), url(https://us.123rf.com/450wm/vencavolrab78/vencavolrab781512/vencavolrab78151200034/50494533-poppy-field-with-trees-in-the-shape-of-heart-at-sunset-valentines-day-.jpg?ver=6);
+    background-size: 100% 100%;
+}
+
+.task1 {
+    height: 300px;
+    width: 300px;
+    background: black;
+    margin: 50px 0 50px 45px;
+}
+
+.task2 {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    font-size: 50px;
+    text-align: center;
+}
+
+.box,
+.box2 {
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    background-color: blue;
+    /* padding: 50px 0px 50px 100px; */
+    box-sizing: border-box;
+}
+
+.box2 {
+
+    background-color: brown;
+    text-align: center;
+    line-height: 200px;
+
+
+}
+
+.border {
+    height: 0px;
+    width: 0px;
+    background: 0px;
+    border-top: 12px solid blue;
+    border-right: 12px solid red;
+    border-bottom: 12px solid yellow;
+    border-left: 12px solid green;
+    /* border: 12px solid red;
+    box-sizing: border-box;
+    border-top:12px solid transparent;
+    border-right:12px solid  blue;
+	border-bottom:12px solid transparent;
+	border-left:12px solid transparent; */
+}
+
+.x {
+    height: 100px;
+    width: 100px;
+    background: gray;
+    border-radius: 30px;
+}
+
+.y {
+    height: 100px;
+    width: 100px;
+    background: rgb(10, 109, 10);
+    margin-top: 30px;
+    border-radius: 80px 0 80px 0;
+}
+
+.z {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    margin-top: 30px;
+
+    border-radius: 0 30px;
+    /*top-left/bottom-right  top-right/bottom-left*/
+
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background: #000;
+
+    border-radius: 50%;
+
+    /*border-radius: 150px;*/
+}
+
+.oval {
+    height: 100px;
+    width: 250px;
+    background: rgb(211, 84, 11);
+
+    border-radius: 80%;
+
+}
+
+.chk {
+    height: 100px;
+    width: 250px;
+    background: gray;
+
+    border-radius: 80px;
+}
+
+.land {
+    height: 100px;
+    width: 100px;
+    background: coral;
+    border-radius: 0 80px 0 80px;
+
+}
+
+.path {
+    height: 300px;
+    width: 300px;
+    background: blue;
+    margin: auto;
+
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+}
+
+.shape {
+    height: 500px;
+    width: 100%;
+    background: gray;
+    text-align: center;
+    /*horizontal center*/
+    line-height: 500px;
+    /*vertical center*/
+    clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 70% 100%, 0% 100%);
+}
+
+p:first-child {
+    background: aqua
+}
+
+p:last-child {
+    background: gray
+}
+
+/* /* paused_class_element  */
+
+.letter::first-letter {
+    background: lightblue;
+    color: red;
+}
+
+.line::first-line {
+    background: lightcoral;
+}
+
+::selection {
+    background: #000;
+    color: white;
+}
+
+.hi::before {
+    content: "HI";
+    content: "\2622";
+}
+
+.hi::after {
+    content: "how are you...!!";
+
+}
+
+.i1::after {
+    content: "sdjkhfsdj";
+}
+
+.d1::before {
+    content: url(https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/The-10-Tech-Trends-That-Will-Transform-Our-World/960x0.jpg?format=jpg&width=960);
+}
+
+.d2:hover {
+    color: blue;
+}
+
+                                        /* ttransfrom_translate */
+.transfrom {
+    height: 200px;
+    width: 200px;
+    background: gray;
+
+    margin: auto;
+    /* transform: translate(500px,0);  /*translate(x,y) */
+    /*transform: translate(0px,100px);*/
+    /*transform: translate(100px,100px);*/
+    /*transform: translateX(345px);*/
+    /*transform: translateY(345px);*/
+
+    /* transform: translate(345px,345px); */
+
+}
+
+
+                                           /* transfrom_rotate */
+
+.rotate {
+    height: 200px;
+    width: 200px;
+    background: coral;
+
+    font-size: 54px;
+    font-weight: bold;
+
+    margin: 200px auto;
+
+    /*transform: rotate(45deg);*/
+    transition: 3s;
+
+}
+
+.rotate:hover {
+    transform: rotate(90deg);
+    /*transform: rotateY(90deg);*/
+
+}
+
+                                            /* transfrom_scale */
+
+.scale {
+    height: 100px;
+    width: 100px;
+    background: gray;
+    margin: 50px auto;
+
+    transition: 0.5s;
+
+ /*transform: scale(1);*/
+}
+
+.scale1 {
+    height: 100px;
+    width: 100px;
+    background: rgb(0, 0, 0);
+    margin: 50px auto;
+
+    transition: 4s;
+}
+
+.scale:hover {
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.scale1:hover {
+    transform: scale(2.2);
+    background: url(https://imageio.forbes.com/specials-images/imageserve/5f962df3991e5636a2f68758/0x0.jpg?format=jpg);
+
+    background-size: 100% 100%;
+
+    border-radius: 50%;
+
+}
+
+                                       /* background_attachment */
+
+.text-color {
+    font-size: 235px;
+    background: linear-gradient(red, blue);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; /*chrome,safari,edge*/
+    -moz-background-clip: text; /*firefox*/
+    -o-background-clip: text; /*opera*/
+}
+
+.text-img {
+    font-size: 400px;
+    height: 700px;
+    background: url(https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1618602532707-3OAII3QVHYKCW3KJ1HJU/cars_boast.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+                                        /* gradient_border */
+.border-img{
+    height: 450px;
+	width: 750px;
+	border:30px solid;
+    background: url(https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1618602532707-3OAII3QVHYKCW3KJ1HJU/cars_boast.jpg);
+    background-size: 100% 100%;
+	margin:auto;
+	border-image:linear-gradient(45deg,red,blue,white 56%,#102e23,gray);
+	border-image-slice: 1;
+}
+
+                                        /* foreground-background-image */
+.foregroundimage{
+    height: 300px;
+    width: 550px;
+    background: gray;
+    margin: 70px;
+    position: relative;
+}  
+.backgroundimage{
+    height: 300px;
+    width: 550px;
+    background: url(https://www.insidesport.in/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-15-at-1.37.06-PM.jpeg);
+    background-size: 100% 100%;
+    margin: 30px;
+    padding-top: 140px;
+    color: #000;
+    font-size: 35px;
+    box-sizing: border-box;                                     
+    padding-left: 400px;
+}                                      
+.fgtext{
+    font-size: 34px;
+    color: rgb(29, 9, 248);
+    font-weight: bold;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+                                          /* positions */
+ 
+.static{
+    font-size: 35px;
+    font-weight: bold;
+    border: 10px solid red;
+    position: static;
+    top: 100px;
+    left: 0;
+
+}
+.fixed
+{
+
+	width: 50%;
+	font-size: 35px;
+	font-weight: bold;
+	border: 10px solid green;
+	position: fixed;
+	top: 0px;
+	left: 100px;
+    box-sizing: border-box;
+    
+    
+}
+
+.sticky
+{
+	font-size: 35px;
+	font-weight: bold;
+	border: 10px solid blue;
+	position: sticky;
+	top: 50px;
+	bottom: 0;
+}

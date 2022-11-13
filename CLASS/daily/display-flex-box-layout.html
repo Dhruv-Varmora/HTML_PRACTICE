@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>display-flex-box-layout</title>
+     <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #fff;
+            background: #000;
+            font-size: 34px;
+            
+        }
+        .header{
+            height: 125px;
+            background: gray;
+            box-sizing: border-box;
+        }
+        .content{
+            height: 470px;
+            background: lightblue;
+            display: flex;
+            /* padding-left: 50px; */
+        
+            
+        }
+        .content .content1{
+            height: 250px;
+            width: 350px;
+            background: blueviolet;
+            /* padding: 100px; */
+            margin: 120px;
+            
+        }
+        .content .content2{
+            height: 250px;
+            width: 350px;
+            margin-top: 120px;
+            margin-bottom: 120px;
+            background: green;
+        }
+        .content .content3{
+            height: 250px;
+            width: 350px;
+             margin: 120px;
+            background: rgb(226, 43, 46);
+           
+        }
+        .footer{
+            height: 150px;
+            background: purple;
+        }
+
+     </style>
+
+</head>
+<body>
+    <div class="header">header</div>
+
+    <div class="content"> 
+
+        <div class="content1">content1</div>
+
+        <div class="content2">content2</div>
+        <div class="content3">content3 </div>
+    </div>
+    <div class="footer">footer</div>
+
+</body>
+</html>

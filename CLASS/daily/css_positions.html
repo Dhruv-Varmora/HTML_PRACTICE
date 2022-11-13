@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+ <style type="text/CSS">
+*{  margin: 0;
+	box-sizing: border-box;}
+		
+.header
+{
+	height: 100px;
+	width: 100%;
+	background: black;
+	display: flex;
+	position: fixed;
+	top: 0px;
+	left: 0;
+}
+
+.header .logo
+{
+	height: 100px;
+	width: 10%;
+	background: blue;
+}
+
+.header .links
+{
+	height: 100px;
+	width: 90%;
+	background: green;
+}
+
+.content123
+{
+	height: 900px;
+	margin-top: 100px;
+	background: lightblue;
+
+}
+
+.content
+{
+	height: 200px;
+	margin-top: 100px;
+	background: gray;
+	display: flex;
+}
+
+.content .p1
+{
+	height: 200px;
+	width: 33.33%;
+	border: 3px solid;
+	position: relative;
+}
+
+.content .p1 span 
+{
+	position: absolute;
+	bottom: 80px;
+	left: 100px;
+}
+
+
+</style>
+</head>
+<body>
+    
+	<!-- CSS Positions:
+
+	1. static
+	2. fixed
+	3. sticky
+	4. absolute
+	5. relative -->
+
+	<div class="header">
+
+		<div class="logo"></div>
+		<div class="links"></div>
+		
+	</div>
+
+	<div class="content123">
+		<h1> this  is  content DIV</h1>
+
+		<div class="content">
+
+			<div class="p1">
+				<img src="C:\Users\Tops\Downloads\imageonline-co-transparentimage.png" height="100%" width="100%">
+				<span>Some text prd 1</span>
+			</div>
+
+			<div class="p1">
+				<img src="https://www.dominos.co.in/assets/store.png" height="100%" width="100%">
+					<span>Some text prd 2</span>
+			</div>
+
+			<div class="p1">
+				<img src="https://www.dominos.co.in/assets/catering.png" height="100%" width="100%">
+					<span>Some text prd 3</span>
+			</div>
+
+		</div>
+		
+	</div>
+</body>
+</html>

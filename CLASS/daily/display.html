@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<style>
+    h1,h2{margin:0px;}
+		p
+		{
+			/*display: block;*/
+			display: none;
+		}
+		.x 
+		{
+			height: 300px;
+			width: 300px;
+			background:transparent;
+			margin:100px auto;
+
+			box-shadow: 0 0 100px rgb(252, 118, 1) inset;
+
+			border:34px inset lightgray;
+		}
+		.block ,ul, li, span{
+			/* visibility: hidden;
+			opacity: 0;
+			display: none; */
+			border: 2px solid black;
+			padding: 15px;
+			display: block;
+			display: inline-block;
+		} 
+
+	</style>
+</head>
+<body>
+    <h1> this is heading</h1>
+	<p>this is paragraph</p>
+	<h2>dhruv</h2>
+
+	<div class="x">
+		
+	</div>
+
+	<!-- display-block -->
+     
+	<div class="block">
+		grandparent
+		<ul>parent
+			<li>
+				child
+				<span>span</span>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
