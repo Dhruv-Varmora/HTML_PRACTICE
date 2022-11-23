@@ -8,7 +8,7 @@
         * {
             margin: 0;
             padding: 0;
-            /* box-sizing: border-box; */
+            box-sizing: border-box;
         }
 
         .header {
@@ -77,7 +77,7 @@
             margin-right: 100px;
             border: 25px solid rgba(255, 255, 255, .3);
             background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);
-            background-origin: border-box ;
+            background-origin: border-box;
             background-size: 100% 100%;
             background-position: -40px 0;
             display: flex;
@@ -87,11 +87,13 @@
             transition: .7s;
 
         }
-        .banner:hover{
+
+        .banner:hover {
             background-position: 0 0;
             transition: .7s;
         }
-        .boder{
+
+        .boder {
             height: 200px;
             width: 400px;
             border: 5px solid #fff;
@@ -100,11 +102,55 @@
             transition: .7s;
             /* display: none; */
         }
-        .banner:hover .boder{ 
+
+        .banner:hover .boder {
             /* display: block;0 */
             opacity: 1;
             transform: translateX(20px);
-        } 
+        }
+
+        .bgimg {
+            height: 500px;
+            background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/banner1.jpg);
+            background-size: 100% 100%;
+            padding-top: 250px;
+            text-align: center;
+
+
+        }
+
+        button {
+            height: 60px;
+            width: 150px;
+            /* border: 3px solid black; */
+            background-color: #2fdab8;
+            color: #fff;
+            font-size: 30px;
+
+            border: none;
+            position: relative;
+        }
+
+        button::after {
+            content: "";
+            transition: .3s;
+            border: 4px solid #2fdab8;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+        }
+
+        button:hover::after {
+            top: -8px;
+            left: -8px;
+            right: -8px;
+            bottom: -8px;
+
+
+        }
 
         .img {
             height: 300px;
@@ -119,11 +165,13 @@
             align-items: center;
             transition: .7s;
         }
-        .img:hover{
+
+        .img:hover {
             background-position: 0 0;
             transition: .7s;
         }
-        .patel{
+
+        .patel {
             height: 200px;
             width: 400px;
             border: 5px solid #fff;
@@ -132,12 +180,14 @@
             transition: .7s;
             /* display: none; */
         }
-        .img:hover .patel{ 
+
+        .img:hover .patel {
             /* display: block;0 */
             opacity: 1;
             transform: translateX(20px);
 
         }
+
         /* content */
         .icon {
             height: 100px;
@@ -158,7 +208,8 @@
             align-items: center;
             margin-left: 20px;
             position: relative;
-            
+            z-index: 0;
+
         }
 
         .logo::after {
@@ -171,14 +222,15 @@
             background-color: blue;
             transform: scale(0);
             transition: 1s;
-          
+            z-index: -1;
+
         }
 
 
         .logo:hover::after {
             transform: scale(1);
-            
-            
+
+
 
         }
 
@@ -198,6 +250,12 @@
         .font p {
             padding-top: 10px;
         }
+
+        .efetimg {
+          height: 500px;
+          background-color: gray;
+        }
+
 
         /* image */
     </style>
@@ -226,12 +284,20 @@
 
         </div>
         <div class="img">
-             <div class="patel"></div>
+            <div class="patel"></div>
         </div>
 
     </div>
 
+    <div class="bgimg"><button>shop now</button></div>
 
+       <!-- hover efet -->
+    <div class="efetimg">
+        <div class="demoimg1"></div>
+        <div class="demoimg2"></div>
+
+    </div>
+    
 
 
     <!-- contact -->
@@ -265,6 +331,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur</p>
         </div>
     </div>
+
+
+
 
 </body>
 
