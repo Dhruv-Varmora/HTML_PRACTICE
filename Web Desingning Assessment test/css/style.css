@@ -5,7 +5,7 @@
 }
 
 .main {
-    height: 700px;
+    height: auto;
     background-color: rgb(159, 159, 159);
     position: relative;
     flex-wrap: wrap;
