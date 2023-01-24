@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.nav 		
+		{
+			height: 50px;
+			width: 100%;
+			background: lightblue;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		.nav li 
+		{
+			display: inline;
+			background: green;
+			margin-right: 20px;
+			position: relative;
+
+		}
+		.nav li a 
+		{
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav li::after
+		{
+			content: "";
+
+			position: absolute;
+			top:100%;
+			left: 0;
+
+			height: 5px;
+			width:0%;
+			background:#000;
+			transition: 0.7s;
+		}
+
+		li:hover::after
+		{
+			width: 100%;
+		}
+
+		
+		
+	</style>
+</head>
+<body>
+
+	<div class="nav">
+		<ul>
+			<li>
+				<a href="">Home</a>
+				
+			</li>
+			<li><a href="">About</a>
+			</li>
+			<li><a href="">Service</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+		
+	</div>
+
+</body>
+</html>

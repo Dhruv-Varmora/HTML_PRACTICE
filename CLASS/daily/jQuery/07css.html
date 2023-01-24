@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        .x 
+        {
+            background: lightcoral;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Dhruv</h1>
+
+    <button id="b1">Add</button>
+    <button id="b2">Remove</button>
+    <button id="b3">Add/Remove</button>
+    <script>
+        // $('h1').css("color","rgba(0,0,0,0.3)");
+        // $('h1').css("background","gray");
+        // $('h1').css("font-size","55px");
+
+       $('#b1').click(function (){
+        $('h1').addClass('x');
+       })
+
+       $('#b2').click(function (){
+        $('h1').removeClass('x');
+       })
+
+
+       $('#b3').click(function (){
+        $('h1').toggleClass('x');
+       })
+    </script>
+</body>
+</html>

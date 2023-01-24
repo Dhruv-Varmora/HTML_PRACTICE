@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" alt="" height="200px" width="450px" id="i1">
+
+    <img src="https://static.sadhguru.org/d/46272/1633199491-1633199490440.jpg" alt="" height="200px" width="450px" id="i2">
+
+    <button onclick="getImage()">Get Image</button>
+    <button onclick="changeImage()">Change Image</button>
+
+    <script>
+
+       img1 =  document.getElementById('i1');
+       img2 =  document.getElementById('i2');
+
+       console.log(img1);
+       console.log(img2);
+       console.log(img2.src);
+
+       function getImage()
+       {
+        img1.src = 'https://static.sadhguru.org/d/46272/1633199491-1633199490440.jpg';
+       }
+
+       function changeImage()
+       {
+        img2.src = 'https://www.rd.com/wp-content/uploads/2020/04/GettyImages-1093840488-5-scaled.jpg';
+       }
+
+
+
+
+    </script>
+
+    
+</body>
+</html>

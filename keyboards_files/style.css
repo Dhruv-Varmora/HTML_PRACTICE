@@ -1,0 +1,65 @@
+#test{
+    font-size: 30px;
+    color: blue;
+}
+
+.dh {
+    background-color: red;
+    color: aliceblue;
+    font-size: 30px;
+}
+.d1{
+    width: 20%;
+}
+#d2{
+    font-size: 50px;
+}
+.d3{
+    font-size: 50px;
+}
+#d4{
+    font-size: 50px;
+}
+.p{
+    margin-left: 30px;
+}
+.k1{
+    font-size: 30px;
+}
+.td{
+    width: 3%;
+    height: auto;
+    /* font-size: ; */
+}
+.td1{
+    width: 15%;
+    height: 15%;
+}
+.color{
+    background-color: rgb(71, 71, 230);
+    border-color: black;
+}
+.color1{
+    background-color: rgb(221, 172, 47);
+    border-color:red;
+}
+.color2{
+    background-color: rgb(60, 202, 60);
+    border-color: blue;
+}
+.color3{
+    background-color: rgb(60, 202, 60);
+    border-color: blue;
+    
+}
+.color4{
+    background-color: rgb(221, 172, 47);
+    border-color:red;  
+}
+.color5{
+    background-color: rgb(71, 71, 230);
+    border-color: black;
+}
+
+
+    

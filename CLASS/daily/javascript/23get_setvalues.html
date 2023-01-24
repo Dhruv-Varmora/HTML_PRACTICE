@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div id="d1">div tag</div>
+  <p id="para">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eum neque sed minima repellendus possimus molestiae!
+    Cum similique dolorum, nisi velit repudiandae rem et doloribus alias fugiat ipsum libero cupiditate.
+  </p>
+
+  <a href="x.html" id="a1">Home</a>
+
+  <input type="text" id="inp">
+
+  <img src="x.jpg" alt="NO Image" height="200px" width="200px" id="img1">
+
+  <button onclick="getDiv()">Get Div Text</button>
+  <button onclick="getP()">Get P Text</button>
+  <button onclick="getA()">Get a Text</button>
+  <button onclick="getAhref()">Get A href</button>
+  <button onclick="getInput()">Get Input Text</button>
+  <button onclick="GetImgAttr()">Get Image SRC</button>
+
+
+  <script>
+
+    x = document.getElementById('d1');
+    y = document.getElementById('para');
+    z = document.getElementById('a1');
+    i = document.getElementById('inp');
+    image = document.getElementById('img1');
+
+    console.log(i.value)
+
+    function getDiv() {
+      alert(x.innerHTML);
+    }
+    function getP() {
+      alert(y.innerHTML);
+    }
+    function getA() {
+      alert(z.innerHTML);
+    }
+
+    function getInput() {
+      alert(i.value);
+      alert(i.type)
+      alert(i.id)
+    }
+
+    function getAhref() {
+      alert(z.href);
+      alert(z.id)
+
+    }
+
+    function GetImgAttr() {
+      alert(image.src);
+      alert(image.alt);
+      alert(image.height)
+      alert(image.width)
+      alert(image.id)
+
+    }
+
+
+
+  </script>
+
+
+</body>
+
+</html>

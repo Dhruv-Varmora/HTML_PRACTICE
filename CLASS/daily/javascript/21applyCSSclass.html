@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.x 
+		{
+			height: 200px;
+			width: 200px;
+			background: linear-gradient(red,blue);
+			color: #fff;
+			font-family: cursive;
+			font-size: 34px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="d1">
+		sdfs
+	</div>
+
+	<button onclick="addCSS()">Add CSS</button>
+	<button onclick="removeCSS()">Remove CSS</button>
+	<button onclick="addRemoveCSS()">Add / Remove CSS</button>
+
+	<script type="text/javascript">
+
+		var d = document.getElementById('d1');
+
+		// d.classList.add('x');
+		// d.classList.remove('x');
+		// d.classList.add('x');
+
+		function addCSS()
+		{
+			d.classList.add('x');
+		}
+
+		function removeCSS()
+		{
+			d.classList.remove('x');
+		}
+
+		function addRemoveCSS()
+		{
+			d.classList.toggle('x');
+		}
+
+
+	</script>
+
+</body>
+</html>

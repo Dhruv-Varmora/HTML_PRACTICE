@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <!-- jQuery: javascript framework
+
+    Framework: write less do more -->
+
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo unde neque asperiores, voluptates at facere sit qui. Maxime eius obcaecati, rem sequi vel doloremque cupiditate ad aperiam officiis et!
+    </p>
+    
+    <button class="b1">hide</button>
+    <button id="b1">show</button>
+    <button class="b2">hide/show</button>
+
+
+    <script>
+
+      // $('tagname')
+      //  $("#id-name") == document.getElementById('idName')
+       // $('.class-name')
+
+       // $('p');
+
+        // console.log($('p'))
+
+        $(document).ready(function (){
+
+            $('.b1').click(function (){
+
+                $('p').hide(2000);
+            })
+
+            $('#b1').click(function(){
+
+                $('p').show(1000);
+            })
+
+            $('.b2').click(function(){
+
+                    $('p').toggle(3000);
+              })
+
+
+            //   $('p').click(function(){
+
+            //     $('p').hide();
+            // })
+
+            $('p').click(function(){
+
+                    $(this).hide();
+            })
+
+
+        })
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style type="text/css">
+
+		*{box-sizing: border-box;}
+		.main 
+		{
+			border: 2px solid blueviolet;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+/*			grid-template-rows: 200px auto;*/
+			grid-template-rows: 200px 200px;
+			padding: 35px;
+			grid-gap: 15px;
+
+		}
+		.x 
+		{
+			border: 2px solid;
+			
+
+		}
+
+		.test
+		{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+
+		.y
+		{
+			border: 2px solid red;
+
+		}
+
+		.test123
+		{
+			display: grid;
+			grid-template-rows: 50px 150px;
+		}
+
+		.y .up,.down
+		{
+			border: 2px solid yellow;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="main">
+		<div class="x">1</div>
+
+		<div class="x test">
+			
+			<div class="y">nested col1 </div>
+			<div class="y test123">
+				<div class="up">up</div>
+				<div class="down">down</div>
+			</div>
+			<div class="y">nested col3 </div>
+		</div>
+
+
+
+		<div class="x">1</div>
+		<div class="x">1</div>
+
+		<div class="x">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incidid dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div class="x">1</div>
+		<div class="x">1</div>
+		<div class="x">1</div>
+		
+		
+	</div>
+
+</body>
+</html>

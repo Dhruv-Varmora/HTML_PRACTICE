@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <style>
+        .main *
+        {
+            border: 2px solid rebeccapurple;
+            padding: 30px;
+            display: block;
+        }
+       
+    </style>
+</head>
+<body>
+
+<div class="main">
+    <div class="gp">
+        GrandParent
+        <ul>
+            Parent 
+            <li>
+                Child 
+                <span>span</span>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<h1></h1>
+
+
+<div class="main">
+    <div class="gp">
+        GrandParent
+        <ul>
+            Parent 
+            <li>
+                Child 
+                <span>span</span>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+
+    // $('.gp').find('li').css("border","2px solid red")
+    // $('.gp').find('ul').css("border","2px solid red")
+    // $('.gp').find('span').css("border","2px solid red")
+
+    $('.gp').children().css("background","lightblue");
+
+
+    $('span').parent().css("border","2px solid red")
+
+    // $('span').parents().css("border","2px solid green")
+
+    $('span').parentsUntil('.gp').css("border","5px solid green")
+
+
+
+</script>
+    
+</body>
+</html>

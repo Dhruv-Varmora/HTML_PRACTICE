@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+
+		*{margin: 0}
+
+		.product-card 
+		{
+			height: 300px;
+			width: 200px;
+			background: lightblue;
+/*			margin: 200px auto;*/
+
+	margin: 20px 50px;
+
+			position: relative;
+
+			box-shadow: 0 0 20px #000;
+		}
+		.product-card .prd-img
+		{
+			height: 200px;
+			width: 200px;
+			background: green;
+		}
+		.product-card .view
+		{
+			height: 50px;
+			width: 200px;
+			background: lightcoral;
+			text-align: center;
+			line-height: 50px;
+
+			position: absolute;
+			top:0;
+			left: 0;
+
+/*			display: none;*/
+			opacity: 0;
+			transition: 1s;
+		}
+
+		.product-card .info 
+		{
+			height: 100px;
+			width: 200px;
+			background: blueviolet;
+		}
+		.product-card:hover .view
+		{
+/*			display: block;*/
+			opacity: 1;
+			top:150px;
+		}
+
+		.product-card .new
+		{
+			background: red;
+			color: #fff;
+			position: absolute;
+			top:0;
+			right: 0;
+		}
+
+		.container 
+		{
+			border: 5px solid;
+			display: flex;
+			flex-wrap: wrap;
+			padding: 15px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+
+		<!-- product card  START-->
+	<div class="product-card">
+		<span class="new">New</span>
+
+		<div class="prd-img">
+			<img src="C:\Users\Tops\Downloads\m1.jpg" height="100%" width="100%">
+		</div>
+
+		<div class="view">Quick View</div>
+
+		<div class="info">
+			<p>Formal blue Shirt</p>
+			<p> $45.99 <span style="text-decoration: line-through;"> $69.71</span></p>			
+			<button>ADD TO CART</button>
+		</div>
+		
+	</div>
+
+	<!-- product card  END-->
+
+
+		<!-- product card  START-->
+	<div class="product-card">
+		<span class="new">New</span>
+
+		<div class="prd-img">
+			<img src="C:\Users\Tops\Downloads\m1.jpg" height="100%" width="100%">
+		</div>
+
+		<div class="view">Quick View</div>
+
+		<div class="info">
+			<p>Formal blue Shirt</p>
+			<p> $45.99 <span style="text-decoration: line-through;"> $69.71</span></p>			
+			<button>ADD TO CART</button>
+		</div>
+		
+	</div>
+
+	<!-- product card  END-->
+
+
+
+		<!-- product card  START-->
+	<div class="product-card">
+		<span class="new">New</span>
+
+		<div class="prd-img">
+			<img src="C:\Users\Tops\Downloads\m1.jpg" height="100%" width="100%">
+		</div>
+
+		<div class="view">Quick View</div>
+
+		<div class="info">
+			<p>Formal blue Shirt</p>
+			<p> $45.99 <span style="text-decoration: line-through;"> $69.71</span></p>			
+			<button>ADD TO CART</button>
+		</div>
+		
+	</div>
+
+	<!-- product card  END-->
+
+
+
+
+		<!-- product card  START-->
+	<div class="product-card">
+		<span class="new">New</span>
+
+		<div class="prd-img">
+			<img src="C:\Users\Tops\Downloads\m1.jpg" height="100%" width="100%">
+		</div>
+
+		<div class="view">Quick View</div>
+
+		<div class="info">
+			<p>Formal blue Shirt</p>
+			<p> $45.99 <span style="text-decoration: line-through;"> $69.71</span></p>			
+			<button>ADD TO CART</button>
+		</div>
+		
+	</div>
+
+	<!-- product card  END-->
+
+</div>
+
+</body>
+</html>

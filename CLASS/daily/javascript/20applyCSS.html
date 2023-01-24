@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+
+	<div id="d1">		
+	 			Harsh is Smiling..1
+	</div>
+
+	<!-- <p onmouseenter="applyCSS()">PARA</p> -->
+	<button  onclick="applyCSS()">Apply Css</button>
+
+	<script type="text/javascript">
+		
+		var div_tag = document.getElementById('d1'); // a=34
+
+		console.log(div_tag);
+
+		div_tag.innerHTML ="Dhruv is Smiling..1";
+
+		// varname.style.property ="value";
+
+		function applyCSS()
+		{
+			div_tag.style.color ="blue";
+			div_tag.style.height ="200px";
+			div_tag.style.width ="200px";
+			div_tag.style.background ="lightblue";
+			div_tag.style.fontSize ="25px";
+			div_tag.style.paddingTop ="40px";
+		}
+
+
+
+
+	</script>
+
+</body>
+</html>

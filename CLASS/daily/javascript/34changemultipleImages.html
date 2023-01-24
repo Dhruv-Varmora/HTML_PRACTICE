@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button
+        {
+            position: absolute;
+            top:50%;
+            right:5%;
+
+            border: none;
+            background: transparent;
+            color:#fff;
+            font-size: 55px;
+            font-weight: bold;
+            box-shadow: 0 0 20px #fff inset;
+            padding: 5px 20px;
+            border-radius: 9px;           
+        }
+
+        div
+        {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    <img src="i1.jpg" alt="" height="450px" width="100%" id="i1">
+
+    <button onclick="changeImage()"></button>
+</div>
+
+    <script>
+        img1 = document.getElementById('i1');
+
+        function changeImage()
+        {
+           // img1.src ='i2.jpg';
+
+            // console.log(img1.src)
+            // if( img1.src == 'http://127.0.0.1:5500/functions/i1.jpg')
+            // {
+            //     img1.src ='http://127.0.0.1:5500/functions/i2.jpg';
+            // }
+
+            // else
+            // {
+            //     img1.src ='http://127.0.0.1:5500/functions/i1.jpg';
+            // }
+
+
+            // if( img1.src.match('i1.jpg') )
+            // {
+            //     img1.src ='i2.jpg';
+            // }
+
+            // else
+            // {
+            //     img1.src ='i1.jpg';
+            // }
+
+            if( img1.src.match('i1.jpg') )
+            {
+                img1.src ='i2.jpg';
+            }
+
+            else if( img1.src.match('i2.jpg'))
+            {
+                img1.src ='i3.jpg';
+            }
+
+            else if( img1.src.match('i3.jpg'))
+            {
+                img1.src ='i4.jpg';
+            }
+
+            else if( img1.src.match('i4.jpg'))
+            {
+                img1.src ='i5.jpg';
+            }          
+
+            else
+            {
+                img1.src ='i1.jpg';
+            }
+
+            setTimeout(' changeImage()',1000)
+
+
+        }
+
+        changeImage();
+
+        // function test()
+        // {
+        //     ...code;
+
+        //     test();
+        // }
+
+        //test()
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed natus, eveniet fugit laboriosam tempora mollitia harum a non sequi corporis deserunt minima maiores laborum enim autem, vero impedit voluptas asperiores.
+    </p>
+
+    <button id="b1">Hide</button>
+    <button id="b2">show</button>
+    <button id="b3">Hide/Show</button>
+
+    <script>
+        $("#b1").click( function () {
+
+            $("p").fadeTo(1000,0);
+        })
+
+        $("#b2").click( function () {
+
+        $("p").fadeIn(1000);
+        })
+
+$("#b3").click( function () {
+
+$("p").toggle(3000);
+})
+
+    </script>
+    
+</body>
+</html>

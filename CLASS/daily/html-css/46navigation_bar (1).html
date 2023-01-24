@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.nav 
+		{
+			height: auto;
+			width: 100%;
+			background:lightblue;
+			/*padding: 5px 5px;*/
+		}
+		.dropdown
+		{
+			display: none;
+			position: absolute;
+			top:100%;
+			left:0;
+			background:gray;
+			width: 100%;
+			list-style: none;
+		}
+		.menu:hover .dropdown
+		{
+			display: block;
+		}
+		.menu 
+		{
+			display: inline;
+			position: relative;
+			background:red;
+			height: 50px;
+		}
+		a 
+		{
+			text-decoration: none;
+			color: black;
+			background: coral;
+			/*padding: 10px 20px;*/
+			
+
+		}
+		.dropdown a 
+		{
+			text-decoration: none;
+			color: black;
+			background: coral;
+			/*padding: 3px 0;*/
+			font-size: 10px;
+
+		}
+		.main-menu
+		{
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="nav">
+
+		<ul class="main-menu">
+			<li class="menu"><a href="">Home</a></li>
+			<li class="menu"><a href="">About</a></li>
+			<li class="menu"><a href="">Services</a>
+
+				<ul class="dropdown">
+					<li><a href="">Service 1</a></li>
+					<li><a href="">Service 2</a></li>
+					<li><a href="">Service 3</a></li>
+					<li><a href="">Service 4</a></li>
+				</ul>
+
+			</li>
+
+		</ul>
+		
+	</div>
+
+</body>
+</html>

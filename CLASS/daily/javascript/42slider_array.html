@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .i1
+        {
+            height: 400px;
+            width: 100%;
+        }
+
+        .xyz
+        {
+            animation:zoomIn 2s forwards;
+        }
+
+        @keyframes zoomIn
+        {
+            from{transform: scale(1);}
+            to{transform: scale(1.4);}
+        }
+
+        .slide{overflow: hidden;}
+    </style>
+</head>
+<body>
+
+    <div class="slide">
+
+            <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg" alt="" id="i1" class="i1">
+
+            <img src="https://www.naturesrare.com/wp-content/uploads/2021/11/natures-rare-sourcing-hd.jpg" alt="" id="i1" class="i1">
+
+            <img src="https://media.licdn.com/dms/image/C4E12AQHHd3LJ0rimxQ/article-cover_image-shrink_720_1280/0/1595919928865?e=2147483647&v=beta&t=QjoqWlmFM_gt29m2NtvwLiyhlkRn2skwovSQHOkLx1g" alt="" id="i1" class="i1">
+
+            <img src="https://thumbs.dreamstime.com/b/scenic-nature-landscape-path-near-lake-forest-path-tunnel-trees-near-lake-scenic-nature-autumn-landscape-panorama-view-115358410.jpg" alt="" id="i1" class="i1">
+
+    </div>
+
+    <script>
+
+index =0;
+        function slider()
+        {
+               
+                    images =  document.getElementsByClassName('i1');
+
+                  //  console.log(images);
+                  //  console.log(images.length);
+
+                    //    images[0].style.display ="none";
+                    //    images[1].style.display ="none";
+                    //    images[2].style.display ="none";
+                    //    images[3].style.display ="none";
+
+                    for(i=0;i<images.length;i++)
+                    {
+                        images[i].style.display ="none";
+                        // images[i].style.scale ="2";
+
+                        images[i].classList.add('xyz');
+                    }
+                    
+                   // console.log(i);//4
+
+                    images[index].style.display ="block";
+
+                    index++; //4
+
+                    if(index==4)
+                    {
+                        index=0;
+                    }
+
+                    setTimeout('slider()',3000)
+
+
+
+        }
+
+        slider()
+      
+      
+
+        
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .harsh
+        {
+            height: 200px;
+            width: 200px;
+            background: gray;
+            font-size: 34px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="d1">DIV tag</div>
+
+   <button onclick="addCSS()">Add CSS</button>
+   <button onclick="removeCSS()">Remove CSS</button>
+   <button onclick="add_remove_CSS()">Add/Remove CSS</button>
+
+
+    <script>
+
+     
+     var div_tag = document.getElementById('d1');
+
+       function addCSS()
+       {
+        div_tag.classList.add('harsh')
+       }
+
+       function removeCSS()
+       {
+        div_tag.classList.remove('harsh')
+       }
+
+       function add_remove_CSS()
+       {
+        div_tag.classList.toggle('harsh')
+       }
+
+    // alert(div_tag.innerHTML)
+
+
+        
+    </script>
+    
+</body>
+</html>

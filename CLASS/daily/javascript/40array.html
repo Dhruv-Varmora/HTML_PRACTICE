@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+    Array: collection of multiple values
+
+    x =23;y=56,c=34;
+
+   
+
+    Syntax:
+
+        var/let/const varName = [value1,value2,valu23,...,valueN];
+
+        ex.
+
+        var x = [34,45.45,"hi",23,'true',true]; 
+    
+    NOTE:
+
+    ==> array INDEX/KEY?POSITION always starts with ZERO.
+    
+    Size of array = NO of values stored
+
+
+    -->
+
+    <script>
+
+
+var arr= [23,56.67,true];
+
+// document.write(arr);
+
+document.write(arr[2]); //Hello
+document.write(arr[0]); //23
+document.write(arr[3]); //true
+document.write(arr[1]); //56.67
+
+
+// sizeof arr = 3
+
+
+document.write("<br><br>");
+document.write("Size of array  = ")
+document.write(arr.length);
+document.write("<br><br>");
+
+
+for(x=0;x<arr.length;x++) // 3 ;3< 3 ;3++
+{
+    document.write(x); //0 1 2
+    document.write("arr[");
+    document.write(x);
+    document.write("] => ");
+    document.write(arr[x]);
+    document.write("<br>");
+
+    // document.write("arr[" + x + "] => " + arr[x] + "<br>");
+}
+
+    </script>
+    
+</body>
+</html>

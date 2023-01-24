@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Name: <input type="text" name="" id="nm"><br><br>
+    
+    Email: <input type="text" name="" id="em"><br><br>
+    
+    Mobile: <input type="text" name="" id="mb"><br><br>
+
+   <input type="submit" name="" id="mb" onclick="RegExp()"><br><br>
+
+   <script>
+
+var name1 = document.getElementById('nm');
+
+   
+
+
+    // /^[a-zA-z]$/
+// ex_nm = /^[a-zA-Z]+$/
+
+ex_nm = /^[a-zA-Z]{3,5}$/
+
+
+
+  email = document.getElementById('em');
+   mobile = document.getElementById('mb');
+
+   function RegExp()
+   {
+        if(name1.value =="")
+        {
+          alert('name is required..!');
+           return false;
+        }
+
+        if(!ex_nm.test(name1.value))
+        {
+            alert('min 3 and max 5 letters..!');
+           return false;
+        }
+   }
+
+
+   </script>
+    
+</body>
+</html>

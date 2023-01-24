@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+
+		*{box-sizing: border-box;}
+		/*body
+		{
+			background:linear-gradient(#000,lightgray);
+		}*/
+		.bannerImg
+		{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 300px;
+			width: 450px;
+			background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg);
+
+			margin:200px auto;
+
+			border:12px solid rgba(255,255,255,0.3);
+			background-origin: border-box;
+
+			background-position: -50px 0px;
+			transition: .5s;
+		}
+
+		.bannerImg:hover
+		{
+			background-position: 0px 0px;
+		}
+		.innerDiv
+		{
+			height: 200px;
+			width: 350px;
+			background:transparent;
+			/*margin-top: 120px auto;*/
+			border: 9px solid #fff;
+			opacity: 0;
+			/*display: none;*/
+			/*visibility: hidden;*/
+			padding: 0 0 0 200px;
+
+			transition: 0.4s;
+		}
+
+		.bannerImg:hover .innerDiv
+		{
+			/*display: block;*/
+			opacity: 1;
+			transform: translateX(20px);
+		}
+	</style>
+</head>
+<body>
+
+	<div class="bannerImg">
+		<div class="innerDiv">
+			
+			New Arrivals
+		</div>
+		
+	</div>
+
+	
+		
+
+</body>
+</html>

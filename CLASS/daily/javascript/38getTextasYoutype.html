@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- <input type="text" id="inp" onkeypress="getText()"> -->
+
+    <input type="text" id="inp" onkeyup="getText()">
+    <textarea name="" id="textA" cols="30" rows="10"></textarea>
+
+    <button onclick="getText()">Get input Text</button>
+
+
+    <script>
+
+        i1 = document.getElementById('inp');
+        i2 = document.getElementById('textA');
+        console.log(i1);
+         console.log(i2);
+
+        console.log(i1.value)
+
+        function getText()
+        {
+            console.log(i1.value)
+            i2.innerHTML = i1.value;
+        }
+
+        
+
+
+    </script>
+</body>
+</html>

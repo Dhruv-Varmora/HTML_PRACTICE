@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    Gender: 
+    <input type="radio" class="x" name="x1"> male
+    <input type="radio" class="x" name="x1"> female
+
+    <br>
+    Hobbies: 
+    <input type="checkbox" class="y"> Music
+    <input type="checkbox" class="y"> Cooking
+    <input type="checkbox" class="y"> Travel
+
+
+    <input type="submit" onclick="validate()">
+
+    <script>
+
+        gender_arr = document.getElementsByClassName('x');
+        console.log(gender_arr);
+        console.log(gender_arr[1]);
+        console.log( gender_arr[0].checked);//false
+
+        hobbies_arr = document.getElementsByClassName('y');
+        console.log(hobbies_arr);
+        console.log(hobbies_arr [0]);
+        console.log(hobbies_arr [1]);
+        console.log(hobbies_arr [2].checked);
+
+        test =0;
+        
+function validate()
+{
+    
+    if( gender_arr[0].checked == true  || gender_arr[1].checked == true)
+        {
+            test =0;
+        }
+
+    else
+        {
+            alert("Select your gender..!");
+            test =1;
+            return false;
+        }
+
+    if( hobbies_arr[0].checked == true || hobbies_arr[1].checked == true || hobbies_arr[2].checked == true)
+    {
+        test =0
+    }    
+    else
+    {
+        alert("Select your hobbies..!");
+            test =1;
+            return false;
+    }
+}
+
+    </script>
+    
+</body>
+</html>
