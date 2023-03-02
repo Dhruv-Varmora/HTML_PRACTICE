@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		body{
+			display: flex;
+			justify-content: center;
+			margin-top: 200px;
+		}
+		.rainbow{
+			height: 300px;
+			width: 300px;
+			background: gray;
+			position: relative;
+			overflow: hidden;
+			border-radius: 10px;
+			
+
+		}
+		.rainbow::after{
+			content: "";
+			height:450px;
+			width: 450px;
+			background: linear-gradient(to left,red,blue,green,orange,purple,yellow,pink);
+		     position: absolute;
+		     top: -60px;
+		     left: -65px;
+		     right: ;
+		     bottom: 0;
+		     
+		     z-index: 0;
+		     transform: rotate(0deg);
+		     animation: rotate 2s linear infinite;
+
+		}
+
+		@keyframes rotate{
+             from{transform:rotate(0deg);}
+             to{transform: rotate(360deg);}
+		}
+		.rainbow::before{
+			content: "";
+			height: 285px;
+			width: 285px;
+			background: white;
+			position: absolute;
+			top: 7.5px;
+			left: 7.5px;
+			z-index: 2;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="rainbow"></div>
+
+</body>
+</html>

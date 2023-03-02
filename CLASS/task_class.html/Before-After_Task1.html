@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>before-after</title>
+	<style type="text/css">
+		div{
+			height: 350px;
+			width: 600px;
+			margin: 150px auto;
+			position: relative;
+			overflow: hidden;
+			
+		}
+		div::after{
+			content: "";
+			height: 350px;
+			width: 600px;
+			background: black;
+			position: absolute;
+			transform: translate(0,-100%);
+			opacity: 0.2;
+			transition: 1s;
+
+		}
+		div::before{
+			content: "";
+			height: 350px;
+			width: 600px;
+			background: black;
+			position: absolute;
+			transform: translate(-100%,100%);
+			opacity: 0.2;
+			transition: 1s;
+
+		}
+		div:hover:before{
+			transform: translate(0,0);
+		}
+		div:hover:after{
+			transform: translate(-100%,0);
+		}
+		.a{
+			
+			font-size: 45px;
+			position: absolute;
+			top: 140px;
+			left: 200px;
+			font-family: cursive;
+			color: white;
+		}
+		.b{
+			color: skyblue;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<span class="a">Flate <span class="b">50%</span> offer</span>
+		<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg" height="100%" width="100%">
+	</div>
+
+</body>
+</html>

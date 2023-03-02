@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Glass_card</title>
+	<style type="text/css">
+		*{box-sizing: border-box;margin: 0;padding: 0;}
+		body{
+			background:lavender ;
+		}
+		.main{
+			height: 300px;
+			width: 550px;
+			margin: 150px auto;
+			position: relative;
+			border-radius: 30px;
+            border: 10px solid;
+		    border-image: linear-gradient(45deg,green,blue,red,orange);
+		    border-image-slice: 1;
+
+			
+
+		}
+		
+		.main .m1{
+			height: 100%;
+			width: 100%;
+			background: url(E:\\polyester-lite.png);
+			background-size: 100% 100%;
+			border-radius: 20px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 5;
+			backdrop-filter: blur(15px);
+		    
+
+
+
+		
+		}
+		.main .m2{
+			height:200px;
+			width: 200px;
+			background:radial-gradient(red,white,green,blue,white,orange);
+			border-radius: 50%;
+			position: absolute;
+			top: -30%;
+			left: -15%;
+		
+
+		}
+		.main .m3{
+			height: 150px;
+			width: 150px;
+			background: linear-gradient(skyblue,purple,orange,gray);
+			border-radius: 50%;
+			position: absolute;
+			top:75%;
+			left:85%;
+		}
+	</style>
+</head>
+<body>
+    <div class="main">
+    	<div class="m1"></div>
+    	<div class="m2"></div>
+    	<div class="m3"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>preloader</title>
+	<style type="text/css">
+		.a{
+			height: 400px;
+			width: 400px;
+			border: 15px solid transparent;
+			margin:100px auto;
+			border-top: 15px solid red;
+			border-radius: 50%;
+			/*animation-name: animate;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;*/
+			animation: animate 2s linear infinite	;
+		}
+		
+		.b{
+			height: 300px;
+			width: 300px;
+			border: 15px solid transparent;
+			border-top: 15px solid green;
+			margin: 35px auto;
+			border-radius: 50%;
+			animation: animate2 3s linear infinite;
+			
+		}
+		
+		.c{
+			height: 200px;
+			width: 200px;
+			border: 15px solid transparent;
+			border-top:15px solid orange;
+			margin:35px auto;
+			border-radius: 50%;
+			animation: animate 2s linear infinite;
+			
+
+		}
+		.d{
+			height: 100px;
+			width: 100px;
+			border: 15px solid transparent;
+			border-top:15px solid purple;
+			margin:35px auto;
+			border-radius: 50%;
+			animation: animate2 2s linear infinite;
+			
+		}
+		@keyframes animate{
+			from{transform: rotate(0deg);}
+			to{transform: rotate(360deg);}
+		}
+		@keyframes animate2{
+			from{transform: rotate(0deg);}
+			to{transform: rotate(-720deg);}
+		}
+	</style>
+</head>
+<body>
+	<div class="a">
+		<div class="b">
+			<div class="c">
+				<div class="d"></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
