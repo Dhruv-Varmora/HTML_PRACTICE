@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+    </body>
+</html>
+<script>
+    // callback : a javascript callback is a function which is to be executed after another  function has finished exec
+
+    function firstFunc(data) {
+        console.log(data);
+    }
+    function addition(num1,num2)
+    {
+        let sum = num1+num2;
+        return sum;
+    }
+    let op = addition(4,5);
+    firstFunc(op);
+
+
+    function myFunc(some) {
+    console.log(some);
+   }
+        function newfunc(num1,num2)
+    {
+        var multi = num1*num2;
+        return multi;
+    }
+mydata = newfunc(4,5);
+myFunc(mydata);
+</script>
