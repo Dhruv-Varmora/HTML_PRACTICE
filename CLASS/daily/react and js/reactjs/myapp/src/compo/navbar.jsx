@@ -13,10 +13,19 @@ import Loops from './05loops';
 import API from './06API';
 import Compo from './07Compo';
 import UseState from './funccompo/01useState';
+import UseEffect from './funccompo/02useEffect';
+import FetchAPI from './funccompo/03FetchAPI';
+import Loader from './funccompo/04Loader';
+import UseRef from './funccompo/05useRef';
+import UseContext from './funccompo/06UseContext';
+import Styled from './funccompo/07styledCompo';
+import UseMemo from './funccompo/08UseMemo';
 
 
 function navbar(props) {
-    const data = { '/home': 'Home', '/about': 'About', '/state': 'state', '/lifecycle': 'Lifecycle','/loops':'Loops','/API':'API','/Compo':'Compo','/useState':'UseState' }
+    const data = { '/home': 'Home', '/about': 'About', '/state': 'state', '/lifecycle': 'Lifecycle','/loops':'Loops',
+    '/API':'API','/Compo':'Compo','/useState':'UseState','/useEffect':'UseEffect','/FetchAPI':'FetchAPI',
+        '/Loader':'Loader','/useRef':'UseRef','/UseContext':'UseContext','/styled':'Styled','/UseMemo':'UseMemo'}
     const returndata = Object.entries(data).map((res) => {
         console.log(res);
         return <li className="nav-item">
@@ -48,6 +57,13 @@ function navbar(props) {
                     <Route path='/API' element={<API/>}/>
                     <Route path='/compo' element={<Compo/>}/>
                     <Route path='/useState' element={<UseState/>}/>
+                    <Route path='/useEffect' element={<UseEffect/>}/>
+                    <Route path='/FetchAPI' element={<FetchAPI/>}/>
+                    <Route path='/Loader' element={<Loader/>}/>
+                    <Route path='/useRef' element={<UseRef/>}/>
+                    <Route path='/UseContext' element={<UseContext/>}/>
+                    <Route path='/styled' element={<Styled/>}/>
+                    <Route path='/UseMemo' element={<UseMemo/>}/>
                 </Routes>
             </Router>
         </>

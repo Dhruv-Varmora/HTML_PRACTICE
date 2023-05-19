@@ -5,8 +5,13 @@ import PanjabiThLI from "./panjabiThLI";
 import SouthinsdianThail from "./southinsdianThail";
 import TaskAPI from "./taskAPI";
 import TaskFuncuseState from "./taskfuncuseState";
-function taskNavbar(props) {
-  const data = { "/GujratiThali": "GujratiThali", "/panjabiThLI": "PanjabiThLI", "/southinsdianThail": "SouthinsdianThail","/taskAPI":"TaskAPI",'/taskfuncuseState':'TaskFuncuseState' };
+import Textbar from "./textbar";
+import TaskfuncFetchAPI from "./taskfuncFetchAPI";
+import FormValidation from "./formValidation";
+function TaskNavbar(props) {
+  const data = { "/GujratiThali": "GujratiThali", "/panjabiThLI": "PanjabiThLI",
+   "/southinsdianThail": "SouthinsdianThail","/taskAPI":"TaskAPI",'/taskfuncuseState':'TaskFuncuseState','/textbar':'Textbar',
+  '/taskfuncFetchAPI':'TaskfuncFetchAPI','/formValidation':'FormValidation'};
   const returndata = Object.entries(data).map((res) => {
     console.log(res);
     return (
@@ -42,11 +47,13 @@ function taskNavbar(props) {
           <Route path="/southinsdianThail" element={<SouthinsdianThail />} />
           <Route path="/TaskAPI" element={<TaskAPI/>}/>
           <Route path="/taskfuncuseState" element={<TaskFuncuseState/>}/>
-
+          <Route path="/textbar" element={<Textbar/>}/>
+          <Route path="/taskfuncFetchAPI" element={<TaskfuncFetchAPI/>}/>
+          <Route path="/formValidation" element={<FormValidation/>}/>
         </Routes>
       </Router>
     </>
   );
 }
 
-export default taskNavbar;
+export default TaskNavbar;

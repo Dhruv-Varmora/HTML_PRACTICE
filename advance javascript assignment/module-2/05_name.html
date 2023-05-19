@@ -1,0 +1,31 @@
+<!-- ● Destructuring assignment We have an object: Write the Destructuring assignment that
+reads:
+a) Name property into the variable name.
+b) Year’s property into the variable age.
+c) isAdmin property into the variable isAdmin (false, if no such property)
+d) let user = { name: "John", years: 30}; -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let  user={
+        name:"John",
+        years:30
+    };
+    let {name,years:age,isAdmin=false}= user;
+
+    alert(name);
+    alert(age);
+    alert(isAdmin);
+
+    // console.log(user);
+</script>
