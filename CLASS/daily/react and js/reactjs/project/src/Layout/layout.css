@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Myfont;
+    src: url(./NeoSansProRegular.OTF);
+}
+*{
+    font-family: Myfont;
+    box-sizing: border-box;
+}
+img{max-width: 100%;}
+.navigation i{font-size: 30px;}
+.logo img{width: 200px;margin-top: -50px;}
+.freebtn button{background-color: #d22; color: white;border-radius: 20px; font-weight: bold; border: 0; padding: 5px ;width: 200px;}
+.hr1{
+    margin-top: -15px;
+}
+.management{
+    background-color: #edeef0;
+    margin-top: -20px;
+}
+.password{width: 800px;text-align: center;margin: auto;}
+.password h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: black;
+}
+.password p{font-size: 20px;}
+.personal button{width: 300px;border: 0;outline: 0;padding: 10px;color: white;border-radius: 20px;background-color: #d22;font-weight: bold;font-size: 20px;}
+.business button{
+    width: 300px;border: 0;outline: 0;padding: 10px;color: white;border-radius: 20px;background-color: #3b70d4;font-weight: bold;font-size: 20px;
+}
+.para{font-size: 14px !important;}
