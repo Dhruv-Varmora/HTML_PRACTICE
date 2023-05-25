@@ -1,0 +1,15 @@
+
+
+
+1] What is JSON
+ANS: JSON stands for JavaScript Object Notation
+lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON JSON is a is "self-describing" and easy to understand
+
+
+
+2] What is promises
+ANS: "Producing code" is code that can take some time
+"Consuming code" is code that must wait for the result
+A Promise is a JavaScript object that links producing code and consuming code
