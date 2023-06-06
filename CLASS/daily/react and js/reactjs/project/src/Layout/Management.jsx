@@ -3,7 +3,7 @@ import React from 'react';
 function Management(props) {
     return (
         <>
-            <div className="container-fluid management pt-5">
+            <div className="container-fluid management pt-5 mt-5">
                 <div className='password'>
                     <h1>Password Management <br /> form anywhere</h1>
                     <p>Life is happening online. Work. Play. Family and friends. LastPass puts your digital life at your fingertips, simply and securely.</p>

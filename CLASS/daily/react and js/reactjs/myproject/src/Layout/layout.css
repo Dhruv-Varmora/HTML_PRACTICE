@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Myfont;
+    src: url(./NeoSansProRegular.OTF);
+}
+* {
+    font-family: Myfont;
+    box-sizing: border-box;
+}
+.bar i {
+    font-size: 30px;
+    margin-right: 25px;
+    margin-top: 5px;
+}   
+
+

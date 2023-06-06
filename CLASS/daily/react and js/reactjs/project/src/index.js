@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap5/src/css/bootstrap.min.css'
 import './Layout/layout.css'
 import Main from './Layout/Main';
+import{
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import BusinessMain from './Layout/BusinessMain';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Main/>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/business" element={<BusinessMain />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

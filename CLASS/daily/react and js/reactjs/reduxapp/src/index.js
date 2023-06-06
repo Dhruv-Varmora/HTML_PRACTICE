@@ -4,14 +4,17 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap5/src/css/bootstrap.min.css'
-import Main from './Layout/1main';
-import './Layout/layout.css'
+import Counter from './counterapp/counter';
+import { Provider } from 'react-redux';
+import store from './store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Main />
+    <Provider store={store}>
+      <Counter />
+    </Provider>
   </React.StrictMode>
 );
 

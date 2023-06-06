@@ -1,0 +1,66 @@
+const TrustAPI = [
+    {
+        id:1,
+        txt:'33+ million',
+        image:'',
+        info:"People secure passwords with LastPass",
+        spn:"",
+    },
+    {
+        id:2,
+        txt:'',
+        image:'img/trust1.png',
+        info:"People secure passwords with LastPass",
+        spn:"G2",
+    },
+    {
+        id:3,
+        txt:'',
+        image:'img/trust1.png',
+        info:"People secure passwords with LastPass",
+        spn:"",
+    },
+    {
+        id:4,
+        txt:'',
+        image:'img/trust1.png',
+        info:"People secure passwords with LastPass",
+        spn:"",
+    },
+    {
+        id:5,
+        txt:'',
+        image:'img/trust1.png',
+        info:"People secure passwords with LastPass",
+        spn:"",
+    },
+    {
+        id:6,
+        txt:'',
+        image:'img/trust1.png',
+        info:"People secure passwords with LastPass",
+        spn:"",
+    },
+    {
+        id:7,
+        txt:'',
+        image:'img/trust1.png',
+        info:"People secure passwords with LastPass",
+        spn:"",
+    },
+    {
+        id:8,
+        txt:'',
+        image:'img/trust1.png',
+        info:"People secure passwords with LastPass",
+        spn:"",
+    },
+    {
+        id:9,
+        txt:'',
+        image:'img/trust1.png',
+        info:"People secure passwords with LastPass",
+        spn:"",
+    },
+]
+export default TrustAPI;

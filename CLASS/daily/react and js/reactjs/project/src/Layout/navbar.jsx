@@ -3,7 +3,7 @@ import React from 'react';
 
 function navbar(props) {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid fixed-top'>
             <div className='navigation d-flex justify-content-between p-3'>
                 <div className="bar">
                 <i class="fa-solid fa-bars"></i>

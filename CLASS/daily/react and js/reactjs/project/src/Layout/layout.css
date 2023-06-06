@@ -2,30 +2,202 @@
     font-family: Myfont;
     src: url(./NeoSansProRegular.OTF);
 }
-*{
+
+* {
     font-family: Myfont;
     box-sizing: border-box;
 }
-img{max-width: 100%;}
-.navigation i{font-size: 30px;}
-.logo img{width: 200px;margin-top: -50px;}
-.freebtn button{background-color: #d22; color: white;border-radius: 20px; font-weight: bold; border: 0; padding: 5px ;width: 200px;}
-.hr1{
+
+img {
+    max-width: 100%;
+}
+
+.navigation i {
+    font-size: 30px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.freebtn button {
+    background-color: #d22;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 0;
+    padding: 5px;
+    width: 200px;
+}
+
+.hr1 {
     margin-top: -15px;
 }
-.management{
+
+.management {
     background-color: #edeef0;
     margin-top: -20px;
 }
-.password{width: 800px;text-align: center;margin: auto;}
-.password h1{
+
+.password {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.password h1 {
     font-size: 4rem;
     font-weight: 900;
     color: black;
 }
-.password p{font-size: 20px;}
-.personal button{width: 300px;border: 0;outline: 0;padding: 10px;color: white;border-radius: 20px;background-color: #d22;font-weight: bold;font-size: 20px;}
-.business button{
-    width: 300px;border: 0;outline: 0;padding: 10px;color: white;border-radius: 20px;background-color: #3b70d4;font-weight: bold;font-size: 20px;
+
+.password p {
+    font-size: 20px;
 }
-.para{font-size: 14px !important;}
+
+.personal button {
+    width: 300px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: #d22;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.business button {
+    width: 300px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: #3b70d4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.para {
+    font-size: 14px !important;
+}
+
+.trust img {
+    width: 30%;
+}
+
+.bg1 {
+    background-image: url('../../public/img/b-img1.jpg');
+    border-radius: 20px;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+
+.bg1::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(1, 1, 1, 0.6);
+}
+
+.bg2 {
+    background: url('../../public/img/b-img2.jpg');
+    border-radius: 20px;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+
+.bg2::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(1, 1, 1, 0.6);
+}
+
+.bg-txt {
+    position: absolute;
+    top: 200px;
+    font-weight: bold;
+    color: white;
+    z-index: 1;
+}
+
+.bg-txt a {
+    color: white;
+    text-decoration: none;
+}
+
+.single {
+    background-color: #fcf0ef;
+    color: red;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.bus {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.plan button {
+    border: 0;
+    outline: none;
+    border: 1px solid #f1bab9;
+    padding: 12px;
+
+}
+
+.tbl1,
+.tbl2 {
+    width: 35%;
+    box-shadow: 3px 6px 7px lightgray;
+    border-radius: 20px;
+}
+
+.get {
+    border-radius: 20px;
+    color: red;
+    background-color: white;
+    border: 3px solid red;
+    font-weight: bolder;
+
+}
+.icons i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.pass ul{
+    list-style-type: none;
+}
+.pass ul li a{
+    color: white;
+    text-decoration: none;
+}
+.pass h5{
+    color: #4c535d;
+}
+.mysclt{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.slct:hover{
+    border-radius: 10px;
+    width: 200px;
+    background-color: gray;
+}
