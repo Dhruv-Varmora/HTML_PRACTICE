@@ -22,6 +22,7 @@ import Styled from './funccompo/07styledCompo';
 import UseMemo from './funccompo/08UseMemo';
 
 
+
 function navbar(props) {
     const data = { '/home': 'Home', '/about': 'About', '/state': 'state', '/lifecycle': 'Lifecycle','/loops':'Loops',
     '/API':'API','/Compo':'Compo','/useState':'UseState','/useEffect':'UseEffect','/FetchAPI':'FetchAPI',
@@ -64,6 +65,7 @@ function navbar(props) {
                     <Route path='/UseContext' element={<UseContext/>}/>
                     <Route path='/styled' element={<Styled/>}/>
                     <Route path='/UseMemo' element={<UseMemo/>}/>
+                    
                 </Routes>
             </Router>
         </>

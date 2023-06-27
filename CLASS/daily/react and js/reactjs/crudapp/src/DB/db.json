@@ -1,0 +1,67 @@
+{
+  "details": [
+    {
+      "name": "hello",
+      "email": "vikramsinh@gmail.com",
+      "phone": 7283938325,
+      "country": "USA",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Yashrajsinh",
+      "email": "yashrajsinh@gmail.com",
+      "phone": 7283938333,
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "name": "Harsh",
+      "email": "harsh@gmail.com",
+      "phone": 7283938222,
+      "country": "Cannada"
+    },
+    {
+      "id": 4,
+      "name": "Harsh",
+      "email": "harsh@gmail.com",
+      "phone": 7283938222,
+      "country": "Cannada"
+    },
+    {
+      "name": "vd",
+      "email": "test@gmail.com",
+      "phone": "+917567109646",
+      "country": "india",
+      "id": 6
+    },
+    {
+      "name": "vd",
+      "email": "test@gmail.com",
+      "phone": "+917567109646",
+      "country": "india",
+      "id": 7
+    },
+    {
+      "name": "Harsh",
+      "email": "harsh@gmail.com",
+      "phone": 7283938222,
+      "country": "Cannada",
+      "id": 8
+    },
+    {
+      "name": "Vikramsinh",
+      "email": "vikramsinh@gmail.com",
+      "phone": 7283938325,
+      "country": "USA",
+      "id": 9
+    },
+    {
+      "name": "dhruvinmotka",
+      "email": "dhruvin123@gmail.com",
+      "phone": 7283938325,
+      "country": "IND",
+      "id": 10
+    }
+  ]
+}
