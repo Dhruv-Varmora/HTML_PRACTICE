@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- <form onsubmit="return FormValidate()">
+    Name:
+    <input type="text" name="" id="nm"><br><br>
+
+    Email: <input type="text" name="" id="em"><br><br>
+
+    Mobile: <input type="text" name="" id="mb"><br><br>
+
+    <input type="submit"><br><br>
+
+  </form>
+
+  <script>
+    var name1 = document.getElementById('nm')
+    email = document.getElementById('em')
+    mobile = document.getElementById('mb')
+
+
+    function FormValidate() {
+      if (name1.value == "") {
+        alert('name is required..!');
+        return false;
+      }
+
+      if (email.value == "") {
+        alert('email is required..!');
+        return false;
+      }
+      if (mobile.value == "") {
+        alert('mobile is required..!');
+        return false;
+      }
+    }
+  </script> -->
+
+
+  <!-- Name: <input type="text" name="" id="nm"><br><br>
+
+  Email: <input type="text" name="" id="em"><br><br>
+
+  Mobile: <input type="text" name="" id="mb"><br><br>
+
+  <input type="submit" name="" id="mb" onclick="RegExp()"><br><br>
+
+  <script>
+    var name1 = document.getElementById('nm')
+
+    ex_nm = /^[a-zA-Z]{3,5}$/
+    validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    phoneno = /^\d{10}$/;
+
+    email = document.getElementById('em');
+    mobile = document.getElementById('mb');
+
+    function RegExp() {
+      if (name1.value == "") {
+        alert("Name is required..!");
+        return false;
+      }
+      else if (!ex_nm.test(name1.value)) {
+        alert('min 3 and max 5 letters..!');
+        return false;
+      }
+      else if (email.value == "") {
+        alert("Email is required..!");
+        return false;
+      }
+      else if (mobile.value == "") {
+        alert("mobile is required..!");
+        return false;
+      }
+      else if (!phoneno.test(mobile.value)) {
+        alert('valid mobile');
+        return false;
+      }
+      else{
+        alert('this data submited')
+      }
+
+    }
+  </script> -->
+
+    Name: 
+    <input type="text" name="" id="nm" onblur="checkValues()">
+    <span id="nmErr"></span>
+    <br><br>
+    
+    Email: <input type="text" name="" id="em" onblur="checkValues()">
+    <span id="emErr"></span>
+    <br><br>
+    
+    Mobile: <input type="text" name="" id="mb" onblur="checkValues()">
+    <span id="mbErr"></span>
+    <br><br>
+
+    <script>
+      nm = document.getElementById('nm')
+      email = document.getElementById('em')
+      mb = document.getElementById('mb')
+
+      nmspan = document.getElementById('nmErr')
+      emspan = document.getElementById('emErr')
+      mbspan = document.getElementById('mbErr')
+
+      function checkValues()
+      {
+        if(nm.value == "")
+        {
+          nmspan.innerHTML= "*name is required..!";
+          nmspan.style.color= "red";
+          return false;
+        }else{
+          nmspan.innerHTML="";
+        }
+        if (email.value == "") {
+          emspan.innerHTML= "*email is required..!";
+          emspan.style.color=  "red";
+          return false;
+        } else {
+          emspan.innerHTML="";
+        }
+        if(mb.value == "")
+        {
+        mbspan.innerHTML ='* Mobile is required..!';
+        mbspan.style.color ="red";
+        return false;
+        
+        }
+        else
+        {
+            mbspan.innerHTML="";
+         nmspan.style.color ="green"
+        }
+      }
+    </script>
+
+  
+
+</body>
+
+</html>

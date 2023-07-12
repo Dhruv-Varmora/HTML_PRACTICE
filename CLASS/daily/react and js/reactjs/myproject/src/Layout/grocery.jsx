@@ -20,14 +20,22 @@ function Grocery(props) {
                                             <div></div>
                                         </div>
                                         <div className="col-6">
-                                            <img src={res.autoimage} alt="" className='images'/>
+                                            <img src={res.autoimage} alt="" className='images' />
                                         </div>
                                     </div>
                                 </div>
+
                             </>
                         )
                     })}
+
+                    <div className='Showmore mt-3'>
+                        <button>Show more <i class="fa-solid fa-chevron-down"></i></button>
+                    </div>
+                   
+
                 </div>
+
             </div>
         </>
     );
