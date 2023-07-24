@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --header :#ffd7ad ;
+}
+.header{
+    width: auto;
+    background-color:#4a1831
+}
+.header ul{
+    list-style: none;
+    text-align: center;
+}
+.header li{
+    display: inline-block;
+    margin: 10px;
+
+}
+.header li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--header);
+    
+    /* color: #e7be9c; */
+}

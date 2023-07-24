@@ -1,13 +1,18 @@
 import React from 'react';
 
+
 function navbar(props) {
+    
     return (
         <div className='container-fluid fixed-top main'>
             <div className='navigation d-flex  p-3'>
                 <div className="bar">
-                <i class="fa-solid fa-bars"></i> 
-                <img src="img/logo.webp" alt="logo" />   
+                    <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i className="fa-solid fa-bars"></i>
+                    </button>
+                    <img src="img/logo.webp" alt="logo" />
                 </div>
+
                 <div className="inputdiv">
                     <input type="text" placeholder='Search products, stores, and recipes' />
                 </div>
@@ -24,3 +29,7 @@ function navbar(props) {
 }
 
 export default navbar;
+
+
+
+

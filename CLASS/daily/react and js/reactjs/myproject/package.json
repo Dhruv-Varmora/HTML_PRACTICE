@@ -9,7 +9,7 @@
     "bootstrap5": "^1.1.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2",
+    "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
     "react-swipe": "^6.0.4",
     "swipe-js-iso": "^2.1.5",

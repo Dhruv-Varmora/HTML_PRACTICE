@@ -6,12 +6,22 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap5/src/css/bootstrap.min.css'
 import Main from './Layout/1main';
 import './Layout/layout.css'
+import{
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Francisco from './Layout/Francisco';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Main />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/Francisco" element={<Francisco />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

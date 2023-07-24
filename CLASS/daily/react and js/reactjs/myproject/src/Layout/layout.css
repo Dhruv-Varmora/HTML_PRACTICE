@@ -13,23 +13,20 @@
 }
 .bar{
     height: 50px;
-    width: 15%;
     line-height: 50px;
 }
 
 .bar i {
     font-size: 20px;
-    margin-right: 25px;
 }  
 .bar img{
     height: 30px;
-    width: 150px;
 }
 .inputdiv {
-    width: 63%;
+    width: 60%;
     padding: 5px;
     margin-top: -3px;
-    margin-left: 15px;
+    margin-left: 35px;
 }
 .inputdiv input{
     width: 100%;
@@ -74,7 +71,7 @@
 }
 .store {
     margin-top: 135px;
-    /* width: auto; */
+    cursor: pointer;
 }
 .store img{
     padding: 5px;
@@ -126,34 +123,28 @@
 }
 .arrow{
     height: 50px !important;
-    width: 60px !important; 
+    width: 50px !important; 
     margin-top: 10px;
     position: absolute;
     top: -130px;
     right: -80px;
     border-radius: 50%;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(38, 38, 38);
     text-align: center;
     z-index: 2;
 }
-.arrow i{
+.arrow .fa-arrow-right{
     margin-top: 13px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     font-size: 25px;
-    color: aliceblue;
 }
-.Showmore{
-    height: 35px;
-    width: 250px;
-    background-color: rgb(195, 195, 195);
-    text-align: center;
-    border-radius: 20px;
+.groceryfran{
+ text-decoration: none;
+ color: #000;
 }
-.Showmore button{
-    padding-top: 5px;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    background-color: transparent;
+.groceryfran:hover{
+    color: #000;
 }
 
 .card1{
@@ -163,7 +154,8 @@
     border-radius: 15px;
     border: none;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 5px rgb(112, 112, 112);   
+    box-shadow: 0 0 5px rgb(202, 202, 202);   
+    cursor: pointer;
 }
 
 .Walmart{
@@ -172,7 +164,6 @@
 }
 .imgstore{
     width: 20%;
-    /* background-color: aqua; */
 }
 .imgstore img{
     height: 60px;
@@ -185,14 +176,11 @@
 .instore{
     height: 90px;
     width: 80%;
-    /* background-color: aqua; */
     font-size: 15px;
+    position: relative;
 }
-.instore::after{
-    height: 90px;
-    /* width: 10px; */
-    background-color: aqua;
-}
+
+
 .instore .prices1{
    margin-left: 20px;
    margin-top: 18px;
@@ -201,11 +189,77 @@
     margin-left: 20px;
     margin-top: -10px;
 }
+.angle{
+    font-size: 20px;
+    color: #8d8d8d;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
 
+.allstores{
+    margin-top: 130px;
+    font-weight: bold;
+}
+.img1
+{
+    height: 80px;
+    background-color:rgb(241, 241, 241);
+    margin-left: 15px;
+    border-radius: 20px;
+    margin-top: 15px;
 
+}
+.img1 img{
+    height: 80px;
+    width: 80px;
+}
+.img1 p{
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.Fastest{
+    background-color: rgb(237, 237, 237);
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 3px 15px;
+}
 
+.bannerimg img{
+ height: 70px;
+ width: 70px;
+ margin-top: 25px;
+}
 
-
-
-
+.cardbanner{
+    height: 130px;
+    width: 420px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(245, 245, 245);   
+}
+.Gtitle1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.Gtime1{
+    font-size: 15px;
+    color: #2c2c2c;
+    margin-top: -20px;
+}
+.Ginfo1{
+    margin-top: -15px;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+}
+.view a{
+    text-decoration: none;
+    color: black;
+}
+.view i{
+    margin-left: 5px;
+}
 

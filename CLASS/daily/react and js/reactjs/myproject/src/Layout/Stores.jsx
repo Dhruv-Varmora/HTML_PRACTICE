@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Stores(props) {
     return (
@@ -7,7 +8,7 @@ function Stores(props) {
                 <div className="row">
                     <div className='' >
                         <p className='fs-2 fw-bold text-center'>Stores to help you save</p>
-                        <p className='text-end'>view all  <i class="fa-solid fa-arrow-right"></i></p>
+                        <p className='text-end view'><Link to={"Francisco"}>view all <i class="fa-solid fa-arrow-right"></i></Link></p>
                     </div>
 
                     <div className="col-4 card1">
@@ -18,6 +19,7 @@ function Stores(props) {
                             <div className='instore'>
                                 <p className='prices1'>Walmart</p>
                                 <p className='prices2'>In-store prices</p>
+                                <span className='angle'><i class='fas fa-angle-right'></i></span>
                             </div>
                         </div>
                     </div>
@@ -29,6 +31,7 @@ function Stores(props) {
                             <div className='instore'>
                                 <p className='prices1'>Sprouts Farmers Market</p>
                                 <p className='prices2'>In-store prices . By 10:00am</p>
+                                <span className='angle'><i class='fas fa-angle-right'></i></span>
                             </div>
                         </div>
                     </div>
@@ -40,6 +43,7 @@ function Stores(props) {
                         <div className='instore'>
                             <p className='prices1'>Kohl's</p>
                             <p className='prices2'>In-store prices</p>
+                            <span className='angle'><i class='fas fa-angle-right'></i></span>
                         </div>
                         </div>
                     </div>
@@ -51,6 +55,7 @@ function Stores(props) {
                         <div className='instore'>
                             <p className='prices1'>Sports Basement</p>
                             <p className='prices2'>In-store prices . By 1:45pm</p>
+                            <span className='angle'><i class='fas fa-angle-right'></i></span>
                         </div>
                         </div>
                     </div>
@@ -62,6 +67,7 @@ function Stores(props) {
                         <div className='instore'>
                             <p className='prices1'>Rainbow Grocery</p>
                             <p className='prices2'>In-store prices . By 11:45am</p>
+                            <span className='angle'><i class='fas fa-angle-right'></i></span>
                         </div>
                         </div>
                     </div>
@@ -73,6 +79,7 @@ function Stores(props) {
                             <div className='instore'>
                                 <p className='prices1'>Walgreens</p>
                                 <p className='prices2'>In-store prices 1 hr</p>
+                                <span className='angle'><i class='fas fa-angle-right'></i></span>
                             </div>
                         </div>
                     </div>

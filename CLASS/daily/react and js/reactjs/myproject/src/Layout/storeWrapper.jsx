@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import storeAPI from './API/storeAPI';
+import { Link } from 'react-router-dom';
 
 function StoreWrapper(props) {
     const [API, setAPI] = useState(storeAPI)
@@ -22,7 +23,7 @@ function StoreWrapper(props) {
                     })}
                     <div className="box">
                         <div className="arrow">
-                            <p className=''><i class="fa-solid fa-arrow-right"></i></p>
+                            <p className=''><Link to={"Francisco"}  class="fa-solid fa-arrow-right "></Link></p>
                             <p className='View'>Viewall</p>
                         </div>
                     </div>
